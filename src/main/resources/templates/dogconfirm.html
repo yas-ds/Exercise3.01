@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+</head>
+<body>
+<p th:inline="text">
+    The dog's name is [[${dog.name}]].<br />
+    The dog's age is [[${dog.age}]].
+</p>
+</body>
+</html>
